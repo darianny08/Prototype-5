@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8321585773138591848}
   - component: {fileID: 8321585772476983550}
   - component: {fileID: 8321585772476983549}
+  - component: {fileID: 2710669992475894017}
   m_Layer: 0
   m_Name: Good 3
   m_TagString: Untagged
@@ -111,3 +112,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e8df21bade504a268801960e43fc052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointValue: 1
+  explosionParticle: {fileID: 8954809347438492526, guid: 6adc03646b99745a2a259b2feabe4d83, type: 3}
+--- !u!65 &2710669992475894017
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8321585773140532904}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.52475095, y: 0.06719126, z: 0.52475107}
+  m_Center: {x: 0, y: -0.0000000018626451, z: -0.000000074505806}
