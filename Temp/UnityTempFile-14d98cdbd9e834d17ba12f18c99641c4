@@ -9,16 +9,6 @@
 /nostdlib+
 /preferreduilang:en-US
 /langversion:8.0
-/reference:"Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.Rider.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.dll"
-/reference:"Library/ScriptAssemblies/Unity.Timeline.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.Timeline.dll"
-/reference:"Library/ScriptAssemblies/Unity.VSCode.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll"
-/reference:"Library/ScriptAssemblies/UnityEditor.UI.dll"
-/reference:"Library/ScriptAssemblies/UnityEngine.UI.dll"
 /reference:"/Applications/2020.3.27f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 /reference:"/Applications/2020.3.27f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
 /reference:"/Applications/2020.3.27f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll"
@@ -209,6 +199,16 @@
 /reference:"/Applications/2020.3.27f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
 /reference:"/Applications/2020.3.27f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll"
 /reference:"/Users/game34/Downloads/Create with Code 2.1_files/Prototype 5/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
+/reference:"Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.Rider.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.dll"
+/reference:"Library/ScriptAssemblies/Unity.Timeline.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.Timeline.dll"
+/reference:"Library/ScriptAssemblies/Unity.VSCode.Editor.dll"
+/reference:"Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll"
+/reference:"Library/ScriptAssemblies/UnityEditor.UI.dll"
+/reference:"Library/ScriptAssemblies/UnityEngine.UI.dll"
 /define:CSHARP_7_3_OR_NEWER
 /define:CSHARP_7_OR_LATER
 /define:DEBUG
@@ -316,5 +316,6 @@
 /define:UNITY_TEAM_LICENSE
 /define:USE_SEARCH_ENGINE_API
 "Assets/Course Library/_Source_Files/Scripts/DestroyAfterDelay.cs"
+"Assets/Scenes/DifficultyButton.cs"
 "Assets/Scenes/GameManager.cs"
 "Assets/Scenes/Target.cs"
